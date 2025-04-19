@@ -78,10 +78,12 @@ p {
 
 @media screen and (max-width: 900px) {
   header {
-   height: 50%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+   text-align: center;
+    margin: 27px 0 150px;
+  }
+
+  a {
+    display: none;
   }
 
  .link-main {
@@ -92,6 +94,10 @@ p {
     margin-top: 10px;
   }
 
+  main, img, div {
+    transform: scale(-1);
+    text-align: center;
+  }
   main {
     display: block;
     width: 100%;
@@ -100,10 +106,7 @@ p {
     margin: 0;
   }
   img {
-    display: block;
     width: 100%;
-    height: auto;
-    padding: 0;
     margin: 0;
   }
   div {
@@ -113,5 +116,12 @@ p {
     padding: 0;
     margin: 0;
     text-align: center;
+  }
+
+  .button-sign {
+    position: absolute;
+    display: block;
+    right: 2%;
+    top: 5%;
   }
 }
